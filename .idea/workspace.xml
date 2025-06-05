@@ -4,25 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4faba69e-61b1-48a7-80c4-16bffccf025b" name="Changes" comment="begin">
-      <change afterPath="$PROJECT_DIR$/config_space/coordinate_system_transformation_lab_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_space/laserscan.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement_model/model_move_lab_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/autonomous_navigation_of_robots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autonomous_navigation_of_robots.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4faba69e-61b1-48a7-80c4-16bffccf025b" name="Changes" comment="config_space, mov_model, obs_model">
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/detection_radio_signal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/ex_list_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/ex_list_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/ex_list_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/ex_list_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/ex_list_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methods_optimal_process/signal_detection/km2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movement_model/model_bike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movement_model/model_bike.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movement_model/model_move_lab_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/movement_model/model_move_lab_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xwzmTbZGXB5xJzSSlS9GT7Gihb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,14 +44,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.coordinate_system_transformation_lab_1.executor": "Run",
+    "Python.detection_radio_signal.executor": "Run",
+    "Python.model_bike.executor": "Run",
+    "Python.model_move_lab_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Дима/PycharmProjects/autonomous_navigation_of_robots/movement_model",
+    "last_opened_file_path": "C:/Users/Дима/PycharmProjects/autonomous_navigation_of_robots/methods_optimal_process/signal_detection",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots\methods_optimal_process\signal_detection" />
+      <recent name="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots\observation_model" />
       <recent name="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots\movement_model" />
       <recent name="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots" />
     </key>
@@ -48,7 +65,7 @@
       <recent name="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.coordinate_system_transformation_lab_1">
+  <component name="RunManager" selected="Python.detection_radio_signal">
     <configuration name="coordinate_system_transformation_lab_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autonomous_navigation_of_robots" />
       <option name="ENV_FILES" value="" />
@@ -63,6 +80,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Дима\PycharmProjects\autonomous_navigation_of_robots\config_space\coordinate_system_transformation_lab_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detection_radio_signal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autonomous_navigation_of_robots" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/methods_optimal_process/signal_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/methods_optimal_process/signal_detection/detection_radio_signal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,12 +133,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model_bike" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autonomous_navigation_of_robots" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movement_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movement_model/model_bike.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_move_lab_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autonomous_navigation_of_robots" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movement_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movement_model/model_move_lab_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.model_move_lab_4" />
+      <item itemvalue="Python.detection_radio_signal" />
+      <item itemvalue="Python.model_bike" />
       <item itemvalue="Python.coordinate_system_transformation_lab_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.detection_radio_signal" />
+        <item itemvalue="Python.model_move_lab_4" />
+        <item itemvalue="Python.model_bike" />
         <item itemvalue="Python.coordinate_system_transformation_lab_1" />
       </list>
     </recent_temporary>
@@ -128,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748864651768</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="config_space, mov_model, obs_model">
+      <option name="closed" value="true" />
+      <created>1748865448481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748865448481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +241,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="config_space, mov_model, obs_model" />
+    <option name="LAST_COMMIT_MESSAGE" value="config_space, mov_model, obs_model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
