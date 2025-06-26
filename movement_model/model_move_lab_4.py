@@ -69,8 +69,9 @@ def odometry_model(x_t, u_t, alfa):
     """
 
     tetta_rot_1_est = u_t[0] - np.random.normal(0, np.sqrt(alfa[0] * u_t[0] ** 2 + alfa[1] * u_t[2] ** 2))
-    tetta_trans_est = u_t[2] - np.random.normal(0, np.sqrt(alfa[2] * u_t[2] ** 2 + alfa[3] * u_t[0] ** 2 + alfa[3] * u_t[
-                                                              1] ** 2))
+    tetta_trans_est = u_t[2] - np.random.normal(0,
+                                                np.sqrt(alfa[2] * u_t[2] ** 2 + alfa[3] * u_t[0] ** 2 + alfa[3] * u_t[
+                                                    1] ** 2))
     tetta_rot_2_est = u_t[1] - np.random.normal(0, np.sqrt(alfa[0] * u_t[1] ** 2 + alfa[1] * u_t[2] ** 2))
 
     x_next = np.zeros(3)
@@ -90,17 +91,23 @@ x_t_arr = np.zeros((5000, 3))
 for i in range(5000):
     x_t_arr[i] = odometry_model(x_t, u_t, alfa)
 
-plt.figure(1)
-plt.scatter(x_t_arr[:, 0], x_t_arr[:, 1], color = "blue")
-plt.scatter(x_t[0], x_t[1], color = "red")
-plt.grid()
+fig, axes = plt.subplots(2, 2, figsize=(10, 8))  # 2 строки, 2 столбца
+axes[0, 0].set_title("Карта XY")
+axes[0, 0].scatter(x_t_arr[:, 0], x_t_arr[:, 1], color="blue", label = "Вероятностное поле состояний робота x_k+1")
+axes[0, 0].scatter(x_t[0], x_t[1], color="red", label = "Начальное положение x_k")
+axes[0, 0].legend()
+axes[0, 0].grid()
 
-plt.figure(2)
-plt.plot(x_t_arr[:, 0])
-plt.plot(x_t_arr[:, 1])
-plt.grid()
+axes[0, 1].set_title("Графики ординат")
+axes[0, 1].plot(x_t_arr[:, 0], label = "X")
+axes[0, 1].plot(x_t_arr[:, 1], label = "Y")
+axes[0, 1].legend()
+axes[0, 1].grid()
 
-plt.figure(3)
-plt.plot(x_t_arr[:, 2])
-plt.grid()
+axes[1, 0].set_title("Значения угла")
+axes[1, 0].plot(x_t_arr[:, 2], label = "Угол")
+axes[1, 0].legend()
+axes[1, 0].grid()
+
+plt.tight_layout()
 plt.show()
