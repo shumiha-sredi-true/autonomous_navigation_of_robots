@@ -1,0 +1,46 @@
+%YAML:1.0
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 655.11500748680783, 0., 326.34508380835172, 0.,
+       650.31330490929088, 204.26521995888933, 0., 0., 1. ]
+dist_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 14
+   dt: d
+   data: [ -0.016959543480066588, 1.8942677470603377,
+       0.049221312557086207, 0.0084370752827089609, 6.0964415633256692,
+       0.3192082531679839, 0.077599179103162622, 11.69222684461638, 0.,
+       0., 0., 0., 0., 0. ]
+mean_error: 0.44710899778734647
+image_width: 640
+image_height: 480
+used_images:
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_1.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_10.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_11.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_12.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_13.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_14.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_15.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_16.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_17.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_18.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_19.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_2.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_20.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_21.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_22.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_23.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_24.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_25.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_26.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_3.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_4.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_5.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_6.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_7.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_8.jpg"
+   - "C:\\Users\\Дима\\PycharmProjects\\autonomous_navigation_of_robots\\sensors\\tech_v\\research\\calibration\\photo_9.jpg"
